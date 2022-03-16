@@ -1,5 +1,5 @@
-Oranges
-Tomatoes
-Potatoes
-Beans
-Banannas
+Oranges x 2
+Tomatoes x 4
+Potatoes x 4
+Beans x 1
+Banannas x 10
