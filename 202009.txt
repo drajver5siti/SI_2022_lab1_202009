@@ -1,0 +1,108 @@
+5. git add ., git commit -m "Add 5 items to the shopping list"
+6. git commit -am "Add quantities to the items"
+7. git branch branch1, git branch branch2
+8. git log
+///////////////////////
+commit 21bfa5a44ce576bf514c5f67a4db3e387de7bd8b
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:42:52 2022 +0100
+
+    Add quantities to the items
+
+commit 7557228d2e2460148db8d31746a7151c80f1d300
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:42:16 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit d6f8c172ec4dbab7187cc0c4e5d3ce22ce192a91
+Author: drajver5siti <80706340+drajver5siti@users.noreply.github.com>
+Date:   Wed Mar 16 16:34:16 2022 +0100
+
+    Update README.md
+
+commit 065eaa25d35ca3b74e5a322876f7d96e4cfce73f
+Author: drajver5siti <80706340+drajver5siti@users.noreply.github.com>
+Date:   Wed Mar 16 16:33:44 2022 +0100
+
+    Initial commit
+
+///////////////////////
+9. git push --all origin
+10. git checkout branch1
+11. git commit -am "Change quantity of item #5"
+12. git checkout master
+13. git commit -am "Change quantity of item #5"
+14. git push --all origin
+15. git checkout branch2
+16. git commit -am "Modify item #4"
+17. git log
+////////////////////////
+commit f50a5468febb9e7bd18014ef511959e8754fd08f
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:49:13 2022 +0100
+
+    Modify item #4
+
+commit 21bfa5a44ce576bf514c5f67a4db3e387de7bd8b
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:42:52 2022 +0100
+
+    Add quantities to the items
+
+commit 7557228d2e2460148db8d31746a7151c80f1d300
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:42:16 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit d6f8c172ec4dbab7187cc0c4e5d3ce22ce192a91
+Author: drajver5siti <80706340+drajver5siti@users.noreply.github.com>
+Date:   Wed Mar 16 16:34:16 2022 +0100
+
+    Update README.md
+
+commit 065eaa25d35ca3b74e5a322876f7d96e4cfce73f
+Author: drajver5siti <80706340+drajver5siti@users.noreply.github.com>
+Date:   Wed Mar 16 16:33:44 2022 +0100
+
+    Initial commit
+
+////////////////////////
+18. git add ., git commit --amend, smeni ime vo text editor
+19. git log
+////////////////////////
+commit a603b3a8c910b4c25fb0e6712acdbbe760e05f45
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:49:13 2022 +0100
+
+    Modify item #4 and add item #6
+
+commit 21bfa5a44ce576bf514c5f67a4db3e387de7bd8b
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:42:52 2022 +0100
+
+    Add quantities to the items
+
+commit 7557228d2e2460148db8d31746a7151c80f1d300
+Author: drajver5siti <ivan.pavlovskii@outlook.com>
+Date:   Wed Mar 16 16:42:16 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit d6f8c172ec4dbab7187cc0c4e5d3ce22ce192a91
+Author: drajver5siti <80706340+drajver5siti@users.noreply.github.com>
+Date:   Wed Mar 16 16:34:16 2022 +0100
+
+    Update README.md
+
+commit 065eaa25d35ca3b74e5a322876f7d96e4cfce73f
+Author: drajver5siti <80706340+drajver5siti@users.noreply.github.com>
+Date:   Wed Mar 16 16:33:44 2022 +0100
+
+    Initial commit
+
+////////////////////////
+20. git checkout master, git merge branch1, nema konflikti so recursvie strategija,
+21. git merge branch2, ima konflikti, gi prifativ promenite od branch2, git add ., git commit -m "Merge branch2, accepted data from branch2",
+22. 
